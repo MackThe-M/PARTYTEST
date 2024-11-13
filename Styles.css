@@ -1,0 +1,72 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.shapes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.shape {
+    width: 100px;
+    height: 100px;
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+    .shape:hover {
+        transform: scale(1.1);
+    }
+
+    .shape.selected {
+        background-color: #FFC107;
+        cursor: not-allowed;
+    }
+
+    .shape.chosen {
+        background-color: #FF5722;
+        cursor: not-allowed;
+    }
+
+.name-display {
+    margin-top: 30px;
+    font-size: 1.5em;
+}
+
+#name {
+    font-weight: bold;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #45a049;
+    }

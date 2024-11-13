@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Click Name Display</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Click a Shape to Select and Submit!</h1>
+    <div class="shapes">
+        <div class="shape" id="shape1" onclick="chooseShape(1)">Circle</div>
+        <div class="shape" id="shape2" onclick="chooseShape(2)">Square</div>
+        <div class="shape" id="shape3" onclick="chooseShape(3)">Triangle</div>
+        <div class="shape" id="shape4" onclick="chooseShape(4)">Rectangle</div>
+        <div class="shape" id="shape5" onclick="chooseShape(5)">Oval</div>
+        <div class="shape" id="shape6" onclick="chooseShape(6)">Hexagon</div>
+        <div class="shape" id="shape7" onclick="chooseShape(7)">Pentagon</div>
+        <div class="shape" id="shape8" onclick="chooseShape(8)">Star</div>
+        <div class="shape" id="shape9" onclick="chooseShape(9)">Diamond</div>
+        <div class="shape" id="shape10" onclick="chooseShape(10)">Heart</div>
+        <div class="shape" id="shape11" onclick="chooseShape(11)">Parallelogram</div>
+        <div class="shape" id="shape12" onclick="chooseShape(12)">Trapezoid</div>
+        <div class="shape" id="shape13" onclick="chooseShape(13)">Cylinder</div>
+        <div class="shape" id="shape14" onclick="chooseShape(14)">Cone</div>
+        <div class="shape" id="shape15" onclick="chooseShape(15)">Sphere</div>
+        <div class="shape" id="shape16" onclick="chooseShape(16)">Cube</div>
+    </div>
+
+    <div id="nameDisplay" class="name-display">
+        <p id="name"></p>
+    </div>
+
+    <button id="submitBtn" onclick="submitSelection()" disabled>Submit</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
